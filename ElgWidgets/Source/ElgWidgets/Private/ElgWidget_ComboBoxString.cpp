@@ -99,16 +99,6 @@ void UElgWidget_ComboBoxString::AddOptionAtIndex(const FString& Option, int32 In
 }
 
 
-bool UElgWidget_ComboBoxString::IsOpen()
-{
-	if (MyComboBox.IsValid())
-	{
-		return MyComboBox->IsOpen();
-	}
-	return false;
-}
-
-
 void UElgWidget_ComboBoxString::ToggleOpen(const bool bFocusMenu /*= true*/, const int32 FocusUserIndex /*= 0*/)
 {
 	if (MyComboBox.IsValid())

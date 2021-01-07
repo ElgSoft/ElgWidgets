@@ -8,9 +8,7 @@ public class ElgWidgets : ModuleRules
 	public ElgWidgets(ReadOnlyTargetRules Target) : base(Target)
 	{
         PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
-
         PrivatePCHHeaderFile = "Public/ElgWidgets.h";
-
         PublicIncludePaths.Add(Path.Combine(ModuleDirectory, "Public"));
         PublicIncludePaths.Add(Path.Combine(ModuleDirectory, "Private"));
 

@@ -39,9 +39,6 @@ class ELGWIDGETS_API UElgWidget_ComboBoxString : public UComboBoxString
 		void AddOptionAtIndex(const FString& Option, int32 Index);
 
 
-	/* return true if the popup is open; false otherwise. */
-	UFUNCTION(BlueprintPure, Category = "ComboBox")
-		bool IsOpen();
 
 	/* Open or close the popup
 		* @param bFocusMenu  Should we focus the popup as soon as it opens?
