@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -27,10 +27,10 @@ void EmptyLinkFunctionForGeneratedCodeElgWidgets_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/ElgWidgets",
 				SingletonFuncArray,
-				ARRAY_COUNT(SingletonFuncArray),
+				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x4AC79E89,
-				0xFB4DB2A0,
+				0xB7B78BEF,
+				0x66905118,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

@@ -10,8 +10,8 @@
 	"DocsURL": "",
 	"MarketplaceURL": "",
 	"SupportURL": "mailto:ElgWidgets@ElgSoft.com",
+	"EngineVersion": "4.27.0",
 	"CanContainContent": false,
-	"IsBetaVersion": false,
 	"Installed": true,
 	"Modules": [
 		{
