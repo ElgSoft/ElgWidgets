@@ -1,7 +1,0 @@
-{
-	"OutputFiles": [
-		"PCH.ElgWidgets.h.obj",
-		"Module.ElgWidgets.cpp.obj",
-		"Module.ElgWidgets.gen.cpp.obj"
-	]
-}

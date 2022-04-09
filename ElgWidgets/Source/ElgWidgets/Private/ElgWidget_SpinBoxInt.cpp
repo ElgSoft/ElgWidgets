@@ -296,20 +296,6 @@ void UElgWidget_SpinBoxInt::HandleOnEndSliderMovement(int32 InValue)
 void UElgWidget_SpinBoxInt::PostLoad()
 {
 	Super::PostLoad();
-
-	if (GetLinkerUE4Version() < VER_UE4_DEPRECATE_UMG_STYLE_ASSETS)
-	{
-		if (Style_DEPRECATED != nullptr)
-		{
-			const FSpinBoxStyle* StylePtr = Style_DEPRECATED->GetStyle<FSpinBoxStyle>();
-			if (StylePtr != nullptr)
-			{
-				WidgetStyle = *StylePtr;
-			}
-
-			Style_DEPRECATED = nullptr;
-		}
-	}
 }
 
 
